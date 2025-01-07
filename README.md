@@ -52,13 +52,13 @@ Train and Evaluate:
 
 from pipeline import run_pipeline
 results = run_pipeline(
-    data="your_data.csv",
-    population_size=50,
-    num_generations=25,
-    max_selected_features=120,
-    crossover_prob=0.1,
-    mutation_prob=0.1,
-    fitness_function="SHAP"
+data="your_data.csv",
+population_size=50,
+num_generations=25,
+max_selected_features=120,
+crossover_prob=0.1,
+mutation_prob=0.1,
+fitness_function="SHAP"
 )
 
 Visualize Results:
